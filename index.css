@@ -1,0 +1,131 @@
+.shop-header{
+font-family: Mont;
+text-align: center;
+font-size:52px;
+font-weight: SemiBold;
+}
+p{
+    font-family: Mont;
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+.search-button{
+    width: 800px;
+    border-radius: 32px;
+    height: 40px;
+    border-width: 0px;
+    border-style: solid;
+    background-color: #E2E0E0;
+    font-size: 15px;
+    padding-left: 20px;
+    display:block;
+    margin-bottom: 15px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.product-image{
+    width:100%;
+    object-fit: cover;
+    
+}
+.product-card{
+    width:200px;
+    display: inline-block;
+    background-color: #F2F3F4;
+    height: 300px;
+    vertical-align: top;
+    margin-bottom: 20px;
+    font-family: Mont;
+}
+
+.product-card:hover{
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+}
+
+.product-image-info{
+    background-color: #ffffff;
+}
+
+.product-info{
+    margin-top: 5px;
+}
+
+.product-title{
+    margin-left: 12px;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: inline-block;
+}
+
+.product-description{
+    font-size: 8px;
+    margin-right: 13px;
+    margin-left: 12px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.product-price{
+    margin-top:0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    display: inline-block;
+    font-weight: bold;
+    text-align: right;
+    margin-left: 0px;
+}
+
+.addtocart{
+    
+    display: inline-block;
+    margin-right:12px;
+}
+
+.addtocart-button{
+    background-color: #00B7FF;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 10px;
+    padding-left: 12px;
+    padding-right:12px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.quantity-section{
+    width: 94px;
+    display: inline-block;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.quantity-box{
+    width:30px;
+    border: none;
+    padding-left: 6px;
+    background-color: #F2F3F4;
+}
+
+.increment-button{
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 22px;
+    padding-top:2px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.product-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+
+}
