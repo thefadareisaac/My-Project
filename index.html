@@ -1,1045 +1,710 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Fadis Shop</title>
+        <title>Fadis Express</title>
         <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="footer.css">
+        <link
+             href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+             rel="stylesheet"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+        <div id="fade-overlay"></div>
+        <div id="cart-fade-overlay"></div>
+        <div id="cart-close"></div>
 
-        <h1 class="shop-header">What are you looking for?</h1>
-        <input id="search-id" class="search-button" type="text" placeholder="Search Item">
-        <p>Featured Products</p>
+        <header>
+            <a href="#" class="shop-logo">FadisExpress</a>
+            <div class="search-button">
+                <input id="main-search"  type="text" placeholder="Search Item" >
+            </div>
+            <div class="cart-icon" id="cart-icon">
+                <i class="ri-shopping-cart-line"></i>
+                <span class="cart-item-count"></span>
+            </div>
+        </header>
+
+        <section class="shop">
+            <h1 class="shop-header">What are you looking for ?</h1>
+            <p>Tech & Electronics</p>
+            
+            <div class='product-grid'>
+
+                <div class="product-card">
+                    <div class="product-image-info">
+                        <img class="product-image" src="thumbnails/image 1.png">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <p class="product-title">Lenovo Legion 9i</p> 
+                            <span class="product-price">$100</span>
+                            <p class="product-description">
+                                The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
+                            </p>
+                        </div>
+
+                        <div class="adjusting-quantity-section">
+                            <div class="quantity-section">
+                                <button id="decrement">-</button>
+                                <span class="quantity-box">1</span>
+                                <button id="increment">+</button>
+                            </div>
+                            <div class="addtocart">
+                                <button class="addtocart-button">Add to Cart</button>
+                            </div>
+
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-info">
+                        <img class="product-image" src="thumbnails/Canon EOS R50.webp">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <p class="product-title">Canon EOS R50 Camera</p> 
+                            <span class="product-price">$679</span>
+                            <p class="product-description">
+                                Mirrorless camera for content creators and vloggers.
+                        </div>
+
+                        <div class="adjusting-quantity-section">
+                            <div class="quantity-section">
+                                <button id="decrement">-</button>
+                                <span class="quantity-box">1</span>
+                                <button id="increment">+</button>
+                            </div>
+                            <div class="addtocart">
+                                <button class="addtocart-button">Add to Cart</button>
+                            </div>
+
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-info">
+                        <img class="product-image" src="thumbnails/Apple iPhone 15 Pro.avif">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <p class="product-title">Apple iPhone 15 Pro</p> 
+                            <span class="product-price">$999</span>
+                            <p class="product-description">
+                                Sleek smartphone with A17 chip and titanium frame.
+                            </p>
+                        </div>
+
+                        <div class="adjusting-quantity-section">
+                            <div class="quantity-section">
+                                <button id="decrement">-</button>
+                                <span class="quantity-box">1</span>
+                                <button id="increment">+</button>
+                            </div>
+                            <div class="addtocart">
+                                <button class="addtocart-button">Add to Cart</button>
+                            </div>
+
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-info">
+                        <img class="product-image" src="thumbnails/Samsung Galaxy Tab S9.jpeg">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <p class="product-title">Samsung Galaxy Tab S9</p> 
+                            <span class="product-price">$799</span>
+                            <p class="product-description">
+                                High-performance Android tablet with AMOLED display.
+                        </div>
+
+                        <div class="adjusting-quantity-section">
+                            <div class="quantity-section">
+                                <button id="decrement">-</button>
+                                <span class="quantity-box">1</span>
+                                <button id="increment">+</button>
+                            </div>
+                            <div class="addtocart">
+                                <button class="addtocart-button">Add to Cart</button>
+                            </div>
+
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-info">
+                        <img class="product-image" src="thumbnails/Sony WH-1000XM5 Headphones.jpeg">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <p class="product-title">Sony WH-1000XM5 Headphones</p> 
+                            <span class="product-price">$399</span>
+                            <p class="product-description">
+                                Industry-leading noise-canceling wireless headphones.                            </p>
+                        </div>
+
+                        <div class="adjusting-quantity-section">
+                            <div class="quantity-section">
+                                <button id="decrement">-</button>
+                                <span class="quantity-box">1</span>
+                                <button id="increment">+</button>
+                            </div>
+                            <div class="addtocart">
+                                <button class="addtocart-button">Add to Cart</button>
+                            </div>
+
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-info">
+                        <img class="product-image" src="thumbnails/Logitech MX Master 3S Mouse.jpeg">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <p class="product-title">Logitech MX Master 3S Mouse</p> 
+                            <span class="product-price">$99</span>
+                            <p class="product-description">
+                                Ergonomic mouse with precision tracking and fast scrolling.
+                            </p>
+                        </div>
+
+                        <div class="adjusting-quantity-section">
+                            <div class="quantity-section">
+                                <button id="decrement">-</button>
+                                <span class="quantity-box">1</span>
+                                <button id="increment">+</button>
+                            </div>
+                            <div class="addtocart">
+                                <button class="addtocart-button">Add to Cart</button>
+                            </div>
+
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-info">
+                        <img class="product-image" src="thumbnails/Amazon Echo Dot (5th Gen).jpeg">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <p class="product-title">Amazon Echo Dot (5th Gen)</p> 
+                            <span class="product-price">$49</span>
+                            <p class="product-description">
+                                Smart Amazon Echo Dot speaker with Alexa voice assistant.
+                            </p>
+                        </div>
+
+                        <div class="adjusting-quantity-section">
+                            <div class="quantity-section">
+                                <button id="decrement">-</button>
+                                <span class="quantity-box">1</span>
+                                <button id="increment">+</button>
+                            </div>
+                            <div class="addtocart">
+                                <button class="addtocart-button">Add to Cart</button>
+                            </div>
+
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-info">
+                        <img class="product-image" src="thumbnails/Anker PowerCore 20,000mAh.jpeg">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <p class="product-title">Anker PowerCore 20,000mAh</p> 
+                            <span class="product-price">$59</span>
+                            <p class="product-description">
+                                Portable charger with fast-charging USB-C support.
+                            </p>
+                        </div>
+
+                        <div class="adjusting-quantity-section">
+                            <div class="quantity-section">
+                                <button id="decrement">-</button>
+                                <span class="quantity-box">1</span>
+                                <button id="increment">+</button>
+                            </div>
+                            <div class="addtocart">
+                                <button class="addtocart-button">Add to Cart</button>
+                            </div>
+
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-info">
+                        <img class="product-image" src="thumbnails/Apple Watch SE (2nd Gen).jpeg    ">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <p class="product-title">Apple Watch SE (2nd Gen)</p> 
+                            <span class="product-price">$249</span>
+                            <p class="product-description">
+                                Affordable smartwatch with fitness and health tracking.
+                            </p>
+                        </div>
+
+                        <div class="adjusting-quantity-section">
+                            <div class="quantity-section">
+                                <button id="decrement">-</button>
+                                <span class="quantity-box">1</span>
+                                <button id="increment">+</button>
+                            </div>
+                            <div class="addtocart">
+                                <button class="addtocart-button">Add to Cart</button>
+                            </div>
+
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-info">
+                        <img class="product-image" src="thumbnails/Roku Streaming Stick 4K.avif">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <p class="product-title">Roku Streaming Stick 4K </p> 
+                            <span class="product-price">$49</span>
+                            <p class="product-description">
+                                Compact streaming device with voice remote.
+                            </p>
+                        </div>
+
+                        <div class="adjusting-quantity-section">
+                            <div class="quantity-section">
+                                <button id="decrement">-</button>
+                                <span class="quantity-box">1</span>
+                                <button id="increment">+</button>
+                            </div>
+                            <div class="addtocart">
+                                <button class="addtocart-button">Add to Cart</button>
+                            </div>
+
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-info">
+                        <img class="product-image" src="thumbnails/HP Envy x360 2-in-1 Laptop.webp">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <p class="product-title">HP Envy x360 2-in-1 Laptop</p> 
+                            <span class="product-price">$849</span>
+                            <p class="product-description">
+                                Convertible touchscreen laptop with AMD Ryzen processor.
+                            </p>
+                        </div>
+
+                        <div class="adjusting-quantity-section">
+                            <div class="quantity-section">
+                                <button id="decrement">-</button>
+                                <span class="quantity-box">1</span>
+                                <button id="increment">+</button>
+                            </div>
+                            <div class="addtocart">
+                                <button class="addtocart-button">Add to Cart</button>
+                            </div>
+
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-info">
+                        <img class="product-image" src="thumbnails/Google Pixel Buds Pro.jpeg">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <p class="product-title">Google Pixel Buds Pro</p> 
+                            <span class="product-price">$199</span>
+                            <p class="product-description">
+                                Noise-canceling earbuds with rich sound and Google Assistant.
+                            </p>
+                        </div>
+
+                        <div class="adjusting-quantity-section">
+                            <div class="quantity-section">
+                                <button id="decrement">-</button>
+                                <span class="quantity-box">1</span>
+                                <button id="increment">+</button>
+                            </div>
+                            <div class="addtocart">
+                                <button class="addtocart-button">Add to Cart</button>
+                            </div>
+
+                        </div> 
+                    </div>
+                </div>
+
+            </div> 
+
+            <p>Home & Kitchen</p>
+
+            <div class='product-grid'>
+
+                <div class="product-card">
+                    <div class="product-image-info">
+                        <img class="product-image" src="thumbnails/Instant Pot Duo 7-in-1.jpg">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <p class="product-title">Instant Pot Duo 7-in-1</p> 
+                            <span class="product-price">$99</span>
+                            <p class="product-description">
+                                Multi-cooker for pressure cooking, slow cooking, and more.
+                            </p>
+                        </div>
+
+                        <div class="adjusting-quantity-section">
+                            <div class="quantity-section">
+                                <button id="decrement">-</button>
+                                <span class="quantity-box">1</span>
+                                <button id="increment">+</button>
+                            </div>
+                            <div class="addtocart">
+                                <button class="addtocart-button">Add to Cart</button>
+                            </div>
+
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-info">
+                        <img class="product-image" src="thumbnails/Dyson V8 Cordless Vacuum.jpeg">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <p class="product-title">Dyson V8 Cordless Vacuum</p> 
+                            <span class="product-price">$399</span>
+                            <p class="product-description">
+                                Lightweight vacuum with powerful suction and HEPA filter.
+                        </div>
+
+                        <div class="adjusting-quantity-section">
+                            <div class="quantity-section">
+                                <button id="decrement">-</button>
+                                <span class="quantity-box">1</span>
+                                <button id="increment">+</button>
+                            </div>
+                            <div class="addtocart">
+                                <button class="addtocart-button">Add to Cart</button>
+                            </div>
+
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-info">
+                        <img class="product-image" src="thumbnails/Keurig K-Supreme Coffee Maker.webp">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <p class="product-title">Keurig K-Supreme Coffee Maker</p> 
+                            <span class="product-price">$129</span>
+                            <p class="product-description">
+                                Single-serve brewer with customizable cup sizes.
+                            </p>
+                        </div>
+
+                        <div class="adjusting-quantity-section">
+                            <div class="quantity-section">
+                                <button id="decrement">-</button>
+                                <span class="quantity-box">1</span>
+                                <button id="increment">+</button>
+                            </div>
+                            <div class="addtocart">
+                                <button class="addtocart-button">Add to Cart</button>
+                            </div>
+
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-info">
+                        <img class="product-image" src="thumbnails/iRobot Roomba i3+ EVO.avif">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <p class="product-title">iRobot Roomba i3+ EVO</p> 
+                            <span class="product-price">$549</span>
+                            <p class="product-description">
+                                Self-emptying robot vacuum with smart mapping.
+                        </div>
+
+                        <div class="adjusting-quantity-section">
+                            <div class="quantity-section">
+                                <button id="decrement">-</button>
+                                <span class="quantity-box">1</span>
+                                <button id="increment">+</button>
+                            </div>
+                            <div class="addtocart">
+                                <button class="addtocart-button">Add to Cart</button>
+                            </div>
+
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-info">
+                        <img class="product-image" src="thumbnails/Philips Hue Smart Bulb Starter Kit.avif">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <p class="product-title">Philips Hue Smart Bulb Starter Kit</p> 
+                            <span class="product-price">$179</span>
+                            <p class="product-description">
+                               Color-changing LED bulbs with app and voice control.                            </p>
+                        </div>
+
+                        <div class="adjusting-quantity-section">
+                            <div class="quantity-section">
+                                <button id="decrement">-</button>
+                                <span class="quantity-box">1</span>
+                                <button id="increment">+</button>
+                            </div>
+                            <div class="addtocart">
+                                <button class="addtocart-button">Add to Cart</button>
+                            </div>
+
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-info">
+                        <img class="product-image" src="thumbnails/Brita Water Pitcher with Filter.jpeg">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <p class="product-title">Brita Water Pitcher with Filter</p> 
+                            <span class="product-price">$34</span>
+                            <p class="product-description">
+                                BPA-free water filter pitcher for cleaner drinking water.
+                            </p>
+                        </div>
+
+                        <div class="adjusting-quantity-section">
+                            <div class="quantity-section">
+                                <button id="decrement">-</button>
+                                <span class="quantity-box">1</span>
+                                <button id="increment">+</button>
+                            </div>
+                            <div class="addtocart">
+                                <button class="addtocart-button">Add to Cart</button>
+                            </div>
+
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-info">
+                        <img class="product-image" src="thumbnails/Ninja Air Fryer Max XL.jpeg">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <p class="product-title">Ninja Air Fryer Max XL</p> 
+                            <span class="product-price">$139</span>
+                            <p class="product-description">
+                                5.5-quart Ninja air fryer for crispy, oil-free meals.
+
+                            </p>
+                        </div>
+
+                        <div class="adjusting-quantity-section">
+                            <div class="quantity-section">
+                                <button id="decrement">-</button>
+                                <span class="quantity-box">1</span>
+                                <button id="increment">+</button>
+                            </div>
+                            <div class="addtocart">
+                                <button class="addtocart-button">Add to Cart</button>
+                            </div>
+
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-info">
+                        <img class="product-image" src="thumbnails/Levoit Core 300 Air Purifier.avif">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <p class="product-title">Levoit Core 300 Air Purifier</p> 
+                            <span class="product-price">$99</span>
+                            <p class="product-description">
+                                Compact HEPA air purifier for bedrooms and offices.
+                            </p>
+                        </div>
+
+                        <div class="adjusting-quantity-section">
+                            <div class="quantity-section">
+                                <button id="decrement">-</button>
+                                <span class="quantity-box">1</span>
+                                <button id="increment">+</button>
+                            </div>
+                            <div class="addtocart">
+                                <button class="addtocart-button">Add to Cart</button>
+                            </div>
+
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-info">
+                        <img class="product-image" src="thumbnails/Lodge Cast Iron Skillet (12).jpeg">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <p class="product-title">Lodge Cast Iron Skillet (12")</p> 
+                            <span class="product-price">$39</span>
+                            <p class="product-description">
+                                Pre-seasoned skillet for stovetop and oven cooking.
+                            </p>
+                        </div>
+
+                        <div class="adjusting-quantity-section">
+                            <div class="quantity-section">
+                                <button id="decrement">-</button>
+                                <span class="quantity-box">1</span>
+                                <button id="increment">+</button>
+                            </div>
+                            <div class="addtocart">
+                                <button class="addtocart-button">Add to Cart</button>
+                            </div>
+
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-info">
+                        <img class="product-image" src="thumbnails/Simplehuman Sensor Trash Can.jpeg">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <p class="product-title">Simplehuman Sensor Trash Can</p> 
+                            <span class="product-price">$149</span>
+                            <p class="product-description">
+                                Stainless steel trash can with motion sensor lid.
+                            </p>
+                        </div>
+
+                        <div class="adjusting-quantity-section">
+                            <div class="quantity-section">
+                                <button id="decrement">-</button>
+                                <span class="quantity-box">1</span>
+                                <button id="increment">+</button>
+                            </div>
+                            <div class="addtocart">
+                                <button class="addtocart-button">Add to Cart</button>
+                            </div>
+
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-info">
+                        <img class="product-image" src="thumbnails/Vitamix E310 Blender.jpeg">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <p class="product-title">Vitamix E310 Blender</p> 
+                            <span class="product-price">$349</span>
+                            <p class="product-description">
+                                High-performance blender for smoothies, soups, and more.
+                            </p>
+                        </div>
+
+                        <div class="adjusting-quantity-section">
+                            <div class="quantity-section">
+                                <button id="decrement">-</button>
+                                <span class="quantity-box">1</span>
+                                <button id="increment">+</button>
+                            </div>
+                            <div class="addtocart">
+                                <button class="addtocart-button">Add to Cart</button>
+                            </div>
+
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-info">
+                        <img class="product-image" src="thumbnails/OXO Good Grips Dish Rack.jpeg">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <p class="product-title">OXO Good Grips Dish Rack</p> 
+                            <span class="product-price">$49</span>
+                            <p class="product-description">
+                                Durable dish rack with adjustable compartments and drain tray.
+                            </p>
+                        </div>
+
+                        <div class="adjusting-quantity-section">
+                            <div class="quantity-section">
+                                <button id="decrement">-</button>
+                                <span class="quantity-box">1</span>
+                                <button id="increment">+</button>
+                            </div>
+                            <div class="addtocart">
+                                <button class="addtocart-button">Add to Cart</button>
+                            </div>
+
+                        </div> 
+                    </div>
+                </div>
+
+            </div> 
+
+
+            <p>Fashion & Accesories</p>
+
+        </section>
+
+        <footer class="footer">
+            <h3 class="about-us">About Us</h3>
+            <span class="company-description">
+                FadisExpress is your go-to online store for the latest and greatest in tech gadgets. From cutting-edge laptops to innovative smart home devices, we bring you a curated selection of products that enhance your digital lifestyle. Our mission is to provide top-quality tech solutions that cater to your needs, ensuring you stay connected and ahead of the curve.
+            </span>
+            <span class="footer-contact">
+                Contact us: +2349132821930, +2347056020748
+            </span>
+            <span class="footer-contact" id="footer-email">
+                Email: isaacfadare7@gmail.com
+            </span>    
+            <span class="footer-copywright" >
+                &copy; 2025 FadisExpress. All rights reserved.
+            </span>
+        </footer>
+
         
-        <div class='product-grid'>
-
-            <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-                
-            
-            
-
-        </div> 
-
-        <p>Appliances</p>
-
-
-        <div class='product-grid'>
-
-            <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-                
-            
-            
-
-        </div>
-
-        <p>TECH Gadgets</p>
-
-
-        <div class='product-grid'>
-
-            <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-
-
-             <div class="product-card">
-                <div class="product-image-info">
-                    <img class="product-image" src="thumbnails/image 1.png">
-                </div>
-                <div class="product-info">
-                    <div>
-                        <p class="product-title">Lenovo Legion 9i</p> 
-                        <p class="product-price">$100</p>
-                        <p class="product-description">
-                             The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.
-                        </p>
-                    </div>
-
-                    <div>
-                        <div class="quantity-section">
-                            <button class="increment-button">-</button>
-                            <input class="quantity-box" type="number" value="1" min="1">
-                            <button class="increment-button">+</button>
-                        </div>
-                        <div class="addtocart">
-                            <button class="addtocart-button">Add to Cart</button>
-                        </div>
-
-                    </div> 
-                </div>
-            </div>
-                
-            
-            
-
-        </div> 
+        <script src="index.js"></script>
     </body>
 </html>
