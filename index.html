@@ -11,6 +11,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+        <div class="wrapper">
+
         <div id="fade-overlay"></div>
         <div id="cart-fade-overlay"></div>
         <div id="cart-close"></div>
@@ -28,11 +30,18 @@
 
         <section class="shop">
             <h1 class="shop-header">What are you looking for ?</h1>
+            <div id="search-section">
+                <!-- <p class="search-result">Search Results!</p> -->
+                <div class="product-grid" id="search-grid"></div>
+            </div>
+            <p>Featured Products</p>
+            <div class="product-grid" id="featured-products-grid"></div>
+
             <p>Tech & Electronics</p>
             
-            <div class='product-grid'>
+            <div class='product-grid' id="tech-&-electronics">
 
-                <div class="product-card">
+                <!-- <div class="product-card">
                     <div class="product-image-info">
                         <img class="product-image" src="thumbnails/image 1.png">
                     </div>
@@ -351,15 +360,15 @@
 
                         </div> 
                     </div>
-                </div>
+                </div> -->
 
             </div> 
 
             <p>Home & Kitchen</p>
 
-            <div class='product-grid'>
+            <div class='product-grid' id="homeandkitchen">
 
-                <div class="product-card">
+                <!--<div class="product-card">
                     <div class="product-image-info">
                         <img class="product-image" src="thumbnails/Instant Pot Duo 7-in-1.jpg">
                     </div>
@@ -679,12 +688,41 @@
 
                         </div> 
                     </div>
-                </div>
+                </div> -->
 
             </div> 
 
 
-            <!-- <p>Fashion & Accesories</p> -->
+            <p>Fashion & Accessories</p>
+            <div class='product-grid' id="fashion-&-accessories">
+
+                <!-- <div class="product-card">
+                    <div class="product-image-info">
+                        <img class="product-image" src="thumbnails/Levi's 501 Original Fit Jeans.jpeg">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <p class="product-title">Levi's 501 Original Fit Jeans</p> 
+                            <span class="product-price">$59</span>
+                            <p class="product-description">
+                                Classic straight-leg jeans with button fly.
+                            </p>
+                        </div>
+
+                        <div class="adjusting-quantity-section">
+                            <div class="quantity-section">
+                                <button id="decrement">-</button>
+                                <span class="quantity-box">1</span>
+                                <button id="increment">+</button>
+                            </div>
+                            <div class="addtocart">
+                                <button class="addtocart-button">Add to Cart</button>
+                            </div>
+
+                        </div> 
+                    </div>
+                </div> -->
+            </div>
 
         </section>
 
@@ -706,5 +744,6 @@
 
         
         <script src="index.js"></script>
+        </div>
     </body>
 </html>

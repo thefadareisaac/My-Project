@@ -6,6 +6,16 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+body{
+    height: 100%;
+    margin:0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
 #fade-overlay {
   position: fixed;
@@ -75,6 +85,7 @@ header{
     padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 2%;
+    flex: 1;
 }
 
 .shop-header{
@@ -107,10 +118,14 @@ p{
     padding: 0.5rem 1rem;
 }
 
+.search-result{
+    visibility:hidden;
+}
 .product-image img {
     width:100%;
     transition: 0.5s;
     height:auto;
+    overflow: hidden;
 }
 
 
@@ -261,6 +276,7 @@ p{
     flex-wrap: wrap;
     gap: 25px;
     justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 
 }
 

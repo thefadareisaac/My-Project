@@ -1,0 +1,901 @@
+[
+    {
+        "image": "thumbnails/image 1.png",
+        "title": "Lenovo Legion 9i",
+        "price": "$350",
+        "description": "The Lenovo Legion 9i is a high-performance gaming laptop designed for enthusiasts and developers.",
+        "category": "Tech & Electronics",
+        "filters" : "Laptop, Gaming, High-Performance",
+        "productid" : "#00001"
+    },
+    {
+        "image": "thumbnails/Canon EOS R50.webp",
+        "title": "Canon EOS R50 Camera",
+        "price": "$679",
+        "description": "Mirrorless camera for content creators and vloggers.",
+        "category": "Tech & Electronics",
+        "filters" : "Canon,camera,mirrorless,vlogging,content creation",
+        "productid":"#00002"
+    },
+    {
+        "image": "thumbnails/Apple iPhone 15 Pro.avif",
+        "title": "Apple iPhone 15 Pro",
+        "price": "$999",
+        "description": "The latest flagship smartphone from Apple with advanced features and performance.",
+        "category": "Tech & Electronics",
+        "filters" : "Apple,smartphone,flagship,performance",
+        "productid":"#00003"
+    },
+    {
+        "image": "thumbnails/Samsung Galaxy Tab S9.jpeg",
+        "title": "Samsung Galaxy Tab S9",
+        "price": "$649",
+        "description": "A high-end Android tablet with a vibrant display and powerful performance.",
+        "category": "Tech & Electronics",
+        "filters" : "Samsung,tablet,Android,high-end",
+        "productid":"#00004"
+    },
+    {
+        "image": "thumbnails/Sony WH-1000XM5 Headphones.jpeg",
+        "title": "Sony WH-1000XM5 Headphones",
+        "price": "$399",
+        "description": "Industry-leading noise-canceling headphones with superior sound quality.",
+        "category":"Tech & Electronics",
+        "filters": "Sony,headphones,noise-canceling,sound quality",
+        "productid":"#00005"
+    },
+    {
+        "image": "thumbnails/Logitech MX Master 3S Mouse.jpeg",
+        "title": "Logitech MX Master 3S Mouse",
+        "price": "$99",
+        "description": "Advanced wireless Ergonomic mouse with precision tracking and fast scrolling designed for productivity and comfort.",
+        "category": "Tech & Electronics",
+        "filters" : "Logitech,mouse,wireless,ergonomic,productivity",
+        "productid":"#00006"
+    },
+    {
+        "image":"thumbnails/Amazon Echo Dot (5th Gen).jpeg",
+        "title":"Amazon Echo Dot (5th Gen)",
+        "price":"$49",
+        "description":"Smart speaker with Alexa voice assistant for music, smart home control, and more.",
+        "category":"Tech & Electronics",
+        "filters":"Amazon,smart speaker,Alexa,voice assistant",
+        "productid":"#00007"
+    },
+    {
+        "image": "thumbnails/Anker PowerCore 20,000mAh.jpeg",
+        "title": "Anker PowerCore 20,000mAh",
+        "price": "$59",
+        "description": "High-capacity portable charger for smartphones and tablets.",
+        "category": "Tech & Electronics",
+        "filters" : "Anker,portable charger,smartphones,tablets",
+        "productid":"#00008"
+    },
+    {
+        "image":"thumbnails/Apple Watch SE (2nd Gen).jpeg",
+        "title":"Apple Watch SE (2nd Gen)",
+        "price":"$249",
+        "description":"Affordable smartwatch with fitness tracking and essential features.",
+        "category":"Tech & Electronics",
+        "filters":"Apple,smartwatch,fitness tracking",
+        "productid":"#00009"
+    },
+    {
+        "image":"thumbnails/Roku Streaming Stick 4K.avif",
+        "title":"Roku Streaming Stick 4K",
+        "price":"$49",
+        "description":"Compact streaming device for 4K UHD content with voice remote.",
+        "category":"Tech & Electronics",
+        "filters":"Roku,streaming device,4K UHD,voice remote",
+        "productid":"#00010"
+    },
+    {
+        "image":"thumbnails/HP Envy x360 2-in-1 Laptop.webp",
+        "title":"HP Envy x360 2-in-1 Laptop",
+        "price":"$899",
+        "description":"Versatile 2-in-1 laptop with touchscreen and convertible design.",
+        "category":"Tech & Electronics",
+        "filters":"HP,laptop,2-in-1,touchscreen,convertible",
+        "productid":"#00011"
+    },
+    {
+        "image":"thumbnails/Google Pixel Buds Pro.jpeg",
+        "title":"Google Pixel Buds Pro",
+        "price":"$199",
+        "description":"Premium wireless earbuds with active noise cancellation and Google Assistant integration.",
+        "category":"Tech & Electronics",
+        "filters":"Google,wireless earbuds,active noise cancellation,Google Assistant",
+        "productid":"#00012"
+    },
+    {
+        "image":"thumbnails/DJI Mini 3 Pro Drone.jpeg",
+        "title":"DJI Mini 3 Pro Drone",
+        "price":"$759",
+        "description":"Compact and lightweight drone with advanced camera capabilities for aerial photography and videography.",
+        "category":"Tech & Electronics",
+        "filters":"DJI,drone,aerial photography,videography",
+        "productid":"#00013"
+    },
+    {
+        "image":"thumbnails/Bose SoundLink Revolve+ II.jpeg",
+        "title":"Bose SoundLink Revolve+ II",
+        "price":"$299",
+        "description":"Portable Bluetooth speaker with 360-degree sound and deep bass.",
+        "category":"Tech & Electronics",
+        "filters":"Bose,Bluetooth speaker,360-degree sound,deep bass",
+        "productid":"#00014"
+    },
+    {
+        "image":"thumbnails/Fitbit Charge 5 Fitness Tracker.jpeg",
+        "title":"Fitbit Charge 5 Fitness Tracker",
+        "price":"$149",
+        "description":"Advanced fitness tracker with built-in GPS, heart rate monitoring, and sleep tracking.",
+        "category":"Tech & Electronics",
+        "filters":"Fitbit,fitness tracker,GPS,heart rate monitoring,sleep tracking",
+        "productid":"#00015"
+    },
+    {
+        "image":"thumbnails/Samsung T7 Portable SSD.jpeg",
+        "title":"Samsung T7 Portable SSD",
+        "price":"$129",
+        "description":"High-speed portable solid-state drive for fast data transfer and storage.",
+        "category":"Tech & Electronics",
+        "filters":"Samsung,portable SSD,data transfer,storage",
+        "productid":"#00016"
+    },
+    {
+        "image":"thumbnails/JBL Flip 6 Bluetooth Speaker.jpeg",
+        "title":"JBL Flip 6 Bluetooth Speaker",
+        "price":"$129",
+        "description":"Durable and waterproof portable speaker with powerful sound and deep bass.",
+        "category":"Tech & Electronics",
+        "filters":"JBL,Bluetooth speaker,portable,durable,waterproof",
+        "productid":"#00017"
+    },
+    {
+        "image":"thumbnails/Microsoft Surface Pro 9.jpeg",
+        "title":"Microsoft Surface Pro 9",
+        "price":"$999",
+        "description":"Versatile 2-in-1 tablet with detachable keyboard and high-resolution display.",
+        "category":"Tech & Electronics",
+        "filters":"Microsoft,tablet,2-in-1,detachable keyboard,high-resolution display",
+        "productid":"#00018"
+    },
+    {
+        "image":"thumbnails/Sony A7 IV Mirrorless Camera.jpeg",
+        "title":"Sony A7 IV Mirrorless Camera",
+        "price":"$2498",
+        "description":"Full-frame mirrorless camera with advanced autofocus and 4K video recording capabilities.",
+        "category":"Tech & Electronics",
+        "filters":"Sony,mirrorless camera,full-frame,autofocus,4K video",
+        "productid":"#00019"
+    },
+    {
+        "image":"thumbnails/Apple AirPods Pro (2nd Gen).jpeg",
+        "title":"Apple AirPods Pro (2nd Gen)",
+        "price":"$249",
+        "description":"Wireless earbuds with active noise cancellation and improved sound quality.",
+        "category":"Tech & Electronics",
+        "filters":"Apple,wireless earbuds,active noise cancellation,sound quality",
+        "productid":"#00020"
+    },
+    {
+        "image":"thumbnails/Kindle Paperwhite (11th Gen).jpeg",
+        "title":"Kindle Paperwhite (11th Gen)",
+        "price":"$139",
+        "description":"Waterproof e-reader with a high-resolution display and adjustable warm light.",
+        "category":"Tech & Electronics",
+        "filters":"Amazon,e-reader,waterproof,high-resolution display",
+        "productid":"#00021"
+    },
+    {
+        "image":"thumbnails/ASUS ROG Strix G15 Gaming Laptop.jpeg",
+        "title":"ASUS ROG Strix G15 Gaming Laptop",
+        "price": "$1259",
+        "description": "High-performance gaming laptop with powerful graphics and fast refresh rate.",
+        "category": "Tech & Electronics",
+        "filters" : "ASUS,Laptop,Gaming,High-Performance",
+        "productid" : "#00022"
+    },
+    {
+        "image":"thumbnails/GoPro HERO11 Black.jpeg",
+        "title":"GoPro HERO11 Black",
+        "price":"$399",
+        "description":"Durable action camera with advanced stabilization and 5.3K video recording.",
+        "category":"Tech & Electronics",
+        "filters":"GoPro,action camera,stabilization,5.3K video",
+        "productid":"#00023"
+    },
+    {
+        "image":"thumbnails/Nintendo Switch OLED Model.jpeg",
+        "title":"Nintendo Switch OLED Model",
+        "price":"$349",
+        "description":"Gaming console with a vibrant OLED display and enhanced audio for an immersive gaming experience.",
+        "category":"Tech & Electronics",
+        "filters":"Nintendo,gaming console,OLED display,immersive gaming",
+        "productid":"#00024"
+    },
+    {
+        "image":"thumbnails/Razer BlackWidow V4 Pro Mechanical Keyboard.jpeg",
+        "title":"Razer BlackWidow V4 Pro Mechanical Keyboard",
+        "price":"$199",
+        "description":"High-performance mechanical keyboard with customizable RGB lighting and programmable keys.",
+        "category":"Tech & Electronics",
+        "filters":"Razer,mechanical keyboard,RGB lighting,programmable keys",
+        "productid":"#00025"
+    },
+    {
+        "image":"thumbnails/Sennheiser HD 560S Headphones.jpeg",
+        "title":"Sennheiser HD 560S Headphones",
+        "price":"$199",
+        "description":"Open-back headphones with natural sound reproduction and comfortable design for long listening sessions.",
+        "category":"Tech & Electronics",
+        "filters":"Sennheiser,headphones,open-back,natural sound,comfortable design",
+        "productid":"#00026"
+    },
+    {
+        "image":"thumbnails/Tile Pro (2022) Bluetooth Tracker.jpeg",
+        "title":"Tile Pro (2022) Bluetooth Tracker",
+        "price":"$34",
+        "description":"Durable Bluetooth tracker with a long-range and loud ring to help you find your belongings easily.",
+        "category":"Tech & Electronics",
+        "filters":"Tile,Bluetooth tracker,long-range,loud ring",
+        "productid":"#00027"
+    },
+    {
+        "image":"thumbnails/Echo Show 8 (2nd Gen).jpeg",
+        "title":"Echo Show 8 (2nd Gen)",
+        "price":"$129",
+        "description":"Smart display with Alexa voice assistant for video calls, entertainment, and smart home control.",
+        "category":"Tech & Electronics",
+        "filters":"Amazon,smart display,Alexa,video calls,smart home",
+        "productid":"#00028"
+    },
+    {
+        "image":"thumbnails/Ring Video Doorbell Pro 2.jpeg",
+        "title":"Ring Video Doorbell Pro 2",
+        "price":"$249",
+        "description":"Advanced video doorbell with 3D motion detection and high-definition video for enhanced home security.",
+        "category":"Tech & Electronics",
+        "filters":"Ring,video doorbell,3D motion detection,home security",
+        "productid":"#00029"
+    },
+    {
+        "image":"thumbnails/Netgear Nighthawk AX12 WiFi 6 Router.jpeg",
+        "title":"Netgear Nighthawk AX12 WiFi 6 Router",
+        "price":"$399",
+        "description":"High-speed WiFi 6 router with advanced features for seamless connectivity and improved network performance.",
+        "category":"Tech & Electronics",
+        "filters":"Netgear,WiFi 6 router,high-speed,connectivity,network performance",
+        "productid":"#00030"
+    },
+    {
+        "image":"thumbnails/Instant Pot Duo 7-in-1.jpg",
+        "title": "Instant Pot Duo 7-in-1",
+        "price": "$99",
+        "description": "Multi-cooker for pressure cooking, slow cooking, and more.",
+        "category": "Home & Kitchen",
+        "filters": "Pot,Cooking,Multi-cooker,Kitchen,Pressure",
+        "productid":"#00031"
+    },
+    {
+        "image":"thumbnails/Dyson V8 Cordless Vacuum.jpeg",
+        "title": "Dyson V8 Cordless Vacuum",
+        "price": "$399",
+        "description": "Lightweight vacuum with powerful suction and HEPA filter.",
+        "category": "Home & Kitchen",
+        "filters": " Cordless Vacuum,Hepa,Dyson,Home",
+        "productid":"#00032"
+    },
+    {
+        "image":"thumbnails/Keurig K-Supreme Coffee Maker.webp",
+        "title": "Keurig K-Supreme Coffee Maker",
+        "price": "$129",
+        "description": "Single-serve brewer with customizable cup sizes.",
+        "category": "Home & Kitchen",
+        "filters": "Keurig,Kitchen,Brewer,Coffee Maker",
+        "productid":"#00033"
+    },
+    {
+        "image":"thumbnails/Levoit Core 300 Air Purifier.avif",
+        "title": "Levoit Core 300 Air Purifier",
+        "price": "$99",
+        "description": "Compact HEPA air purifier for bedrooms and offices.",
+        "category": "Home & Kitchen",
+        "filters": "Levoit,Kitchen,Hepa,Air Purifier",
+        "productid":"#00034"
+    },
+    {
+        "image":"thumbnails/iRobot Roomba i3+ EVO.avif",
+        "title": "iRobot Roomba i3+ EVO",
+        "price": "$549",
+        "description": "Self-emptying robot vacuum with smart mapping.",
+        "category": "Home & Kitchen",
+        "filters": "iRobot,Vacuum,Smart,Romba,Home",
+        "productid":"#00035"
+    },{
+        "image":"thumbnails/Philips Hue Smart Bulb Starter Kit.avif",
+        "title": "Philips Hue Smart Bulb Starter Kit",
+        "price": "$179",
+        "description": "Color-changing LED bulbs with app and voice control.",
+        "category": "Home & Kitchen",
+        "filters": "Smart Bulb,Color Changing,LED,Philips Hue",
+        "productid":"#00036"
+    },
+    {
+        "image":"thumbnails/Brita Water Pitcher with Filter.jpeg",
+        "title": "Brita Water Pitcher with Filter",
+        "price": "$34",
+        "description": "BPA-free water filter pitcher for cleaner drinking water.",
+        "category": "Home & Kitchen",
+        "filters": "Brita,Pitcher,Filter,Water,Kitchen",
+        "productid":"#00037"
+    },
+    {
+        "image":"thumbnails/Ninja Air Fryer Max XL.jpeg",
+        "title": "Ninja Air Fryer Max XL",
+        "price": "$139",
+        "description": "5.5-quart Ninja air fryer for crispy, oil-free meals.",
+        "category": "Home & Kitchen",
+        "filters": "Ninja,Air Fryer,Meal,Oil Free",
+        "productid":"#00038"
+    },
+    {
+        "image":"thumbnails/Lodge Cast Iron Skillet (12).jpeg",
+        "title": "Lodge Cast Iron Skillet (12')",
+        "price":"$39",
+        "description":"Pre-seasoned skillet for stovetop and oven cooking.",
+        "category":"Home & Kitchen",
+        "filters":  "Lodge Cast Iron,stovetop,oven,cooking",
+        "productid":"#00039"
+    },
+    {
+        "image":"thumbnails/Cuisinart 14-Cup Food Processor.jpeg",
+        "title": "Cuisinart 14-Cup Food Processor",
+        "price": "$199",
+        "description": "Versatile food processor with multiple attachments.",
+        "category": "Home & Kitchen",
+        "filters": "Cuisinart,Food Processor,Kitchen,Attachments",
+        "productid":"#00040"
+    },
+    {
+        "image":"thumbnails/Calphalon Nonstick Cookware Set (10-Piece).jpeg",
+        "title": "Calphalon Nonstick Cookware Set (10-Piece)",
+        "price": "$199",
+        "description": "Durable nonstick pots and pans for everyday cooking.",
+        "category": "Home & Kitchen",
+        "filters": "Calphalon,Cookware,Nonstick,Pots,Pans",
+        "productid":"#00041"
+    },
+    {
+        "image":"thumbnails/Black+Decker 4-Slice Toaster Oven.jpeg",
+        "title": "Black+Decker 4-Slice Toaster Oven",
+        "price": "$59",
+        "description": "Compact toaster oven with multiple cooking functions.",
+        "category": "Home & Kitchen",
+        "filters": "Black+Decker,Toaster Oven,Kitchen,Cooking",
+        "productid":"#00042"
+    },
+    {
+        "image":"thumbnails/Waterpik Aquarius Water Flosser.jpeg",
+        "title": "Waterpik Aquarius Water Flosser",
+        "price": "$69",
+        "description": "Effective water flosser for improved oral hygiene.",
+        "category": "Home & Kitchen",
+        "filters": "Waterpik,Water Flosser,Oral Hygiene,Health",
+        "productid":"#00043"
+    },
+    {
+        "image":"thumbnails/OXO Good Grips 3-in-1 Avocado Slicer.jpeg",
+        "title": "OXO Good Grips 3-in-1 Avocado Slicer",
+        "price": "$12",
+        "description": "Multi-functional tool for slicing, pitting, and scooping avocados.",
+        "category": "Home & Kitchen",
+        "filters": "OXO,Avocado Slicer,Kitchen Tool,Multi-functional",
+        "productid":"#00044"
+    },
+    {
+        "image":"thumbnails/Presto Electric Griddle.jpeg",
+        "title": "Presto Electric Griddle",
+        "price": "$49",
+        "description": "Large electric griddle for cooking breakfast and more.",
+        "category": "Home & Kitchen",
+        "filters": "Presto,Electric Griddle,Breakfast,Cooking",
+        "productid":"#00045"
+    },
+    {
+        "image":"thumbnails/GE Profile Opal Nugget Ice Maker.jpeg",
+        "title": "GE Profile Opal Nugget Ice Maker",
+        "price": "$499",
+        "description": "Countertop ice maker that produces chewable nugget ice.",
+        "category": "Home & Kitchen",
+        "filters": "GE Profile,Ice Maker,Nugget Ice,Kitchen Appliance",
+        "productid":"#00046"
+    },
+    {
+        "image":"thumbnails/All-Clad Stainless Steel Mixing Bowls (3-Piece).jpeg",
+        "title": "All-Clad Stainless Steel Mixing Bowls (3-Piece)",
+        "price": "$79",
+        "description": "Durable stainless steel mixing bowls for food prep and serving.",
+        "category": "Home & Kitchen",
+        "filters": "All-Clad,Mixing Bowls,Stainless Steel,Kitchen",
+        "productid":"#00047"
+    },
+    {
+        "image":"thumbnails/De'Longhi Espresso Machine.jpeg",
+        "title": "De'Longhi Espresso Machine",
+        "price": "$299",
+        "description": "Compact espresso machine for making café-style drinks at home.",
+        "category": "Home & Kitchen",
+        "filters": "De'Longhi,Espresso Machine,Coffee Maker,Kitchen Appliance",
+        "productid":"#00048"
+    },
+    {
+        "image":"thumbnails/Crock-Pot Slow Cooker (6-Quart).jpeg",
+        "title": "Crock-Pot Slow Cooker (6-Quart)",
+        "price": "$59",
+        "description": "Programmable slow cooker for easy meal preparation.",
+        "category": "Home & Kitchen",
+        "filters": "Crock-Pot,Slow Cooker,Meal Preparation,Kitchen Appliance",
+        "productid":"#00049"
+    },
+    {
+        "image":"thumbnails/Vitamix E310 Explorian Blender.jpeg",
+        "title": "Vitamix E310 Explorian Blender",
+        "price": "$349",
+        "description": "High-performance blender for smoothies, soups, and more.",
+        "category": "Home & Kitchen",
+        "filters": "Vitamix,Blender,Smoothies,Kitchen Appliance",
+        "productid":"#00050"
+    },
+    {
+        "image":"thumbnails/Cuisinart Air Fryer Toaster Oven.jpeg",
+        "title": "Cuisinart Air Fryer Toaster Oven",
+        "price": "$199",
+        "description": "Versatile toaster oven with air frying capabilities.",
+        "category": "Home & Kitchen",
+        "filters": "Cuisinart,Air Fryer,Toaster Oven,Kitchen Appliance",
+        "productid":"#00051"
+    },
+    {
+        "image":"thumbnails/Belkin BoostCharge Wireless Charging Pad.jpeg",
+        "title": "Belkin BoostCharge Wireless Charging Pad",
+        "price": "$39",
+        "description": "Fast wireless charging pad for compatible smartphones and devices.",
+        "category": "Tech & Electronics",
+        "filters":"Belkin,Wireless Charging,Smartphones,Devices",
+        "productid":"#00052"
+    },
+    {
+        "image":"thumbnails/Sony SRS-XB33 Extra Bass Portable Bluetooth Speaker.jpeg",
+        "title": "Sony SRS-XB33 Extra Bass Portable Bluetooth Speaker",
+        "price": "$149",
+        "description": "Rugged portable speaker with extra bass and waterproof design.",
+        "category": "Tech & Electronics",
+        "filters":"Sony,Bluetooth Speaker,Portable,Extra Bass,Waterproof",
+        "productid":"#00053"
+    },
+    {
+        "image":"thumbnails/Anker Soundcore Life Q30 Wireless Headphones.jpeg",
+        "title": "Anker Soundcore Life Q30 Wireless Headphones",
+        "price": "$79",
+        "description": "Affordable wireless headphones with active noise cancellation and long battery life.",
+        "category": "Tech & Electronics",
+        "filters":"Anker,Wireless Headphones,Noise Cancellation,Battery Life",
+        "productid":"#00054"
+    },
+    {
+        "image":"thumbnails/Fujifilm Instax Mini 11 Instant Camera.jpeg",
+        "title": "Fujifilm Instax Mini 11 Instant Camera",
+        "price": "$69",
+        "description": "Compact instant camera for capturing and printing photos on the go.",
+        "category": "Tech & Electronics",
+        "filters":"Fujifilm,Instant Camera,Photography,Printing",
+        "productid":"#00055"
+    },
+    {
+        "image":"thumbnails/TP-Link Kasa Smart Plug.jpeg",
+        "title": "TP-Link Kasa Smart Plug",
+        "price": "$19",
+        "description": "Smart plug for controlling appliances and devices remotely via smartphone app.",
+        "category": "Tech & Electronics",
+        "filters":"TP-Link,Smart Plug,Home Automation,Remote Control",
+        "productid":"#00056"
+    },
+    {
+        "image":"thumbnails/Anker PowerLine III USB-C to USB-C Cable.jpeg",
+        "title": "Anker PowerLine III USB-C to USB-C Cable",
+        "price": "$25",
+        "description": "Durable and fast-charging USB-C cable for smartphones and devices.",
+        "category": "Tech & Electronics",
+        "filters":"Anker,USB-C Cable,Fast Charging,Durable",
+        "productid":"#00057"
+    },
+    {
+        "image":"thumbnails/Samsung Galaxy Buds2 Pro.jpeg",
+        "title": "Samsung Galaxy Buds2 Pro",
+        "price": "$229",
+        "description": "Premium wireless earbuds with active noise cancellation and immersive sound quality.",
+        "category": "Tech & Electronics",
+        "filters":"Samsung,Wireless Earbuds,Noise Cancellation,Sound Quality",
+        "productid":"#00058"
+    },
+    {
+        "image":"thumbnails/Jabra Elite 75t Wireless Earbuds.jpeg",
+        "title": "Jabra Elite 75t Wireless Earbuds",
+        "price": "$149",
+        "description": "Compact wireless earbuds with customizable sound and secure fit.",
+        "category": "Tech & Electronics",
+        "filters":"Jabra,Wireless Earbuds,Customizable Sound,Secure Fit",
+        "productid":"#00059"
+    },
+    {
+        "image":"thumbnails/Lenovo Smart Clock 2.jpeg",
+        "title": "Lenovo Smart Clock 2",
+        "price": "$79",
+        "description": "Smart clock with Google Assistant for bedside convenience and smart home control.",
+        "category": "Tech & Electronics",
+        "filters":"Lenovo,Smart Clock,Google Assistant,Bedside,Smart Home",
+        "productid":"#00060"
+    },
+    {
+        "image":"thumbnails/Ring Spotlight Cam Battery.jpeg",
+        "title": "Ring Spotlight Cam Battery",
+        "price": "$199",
+        "description": "Wireless security camera with motion-activated spotlight and two-way audio.",
+        "category": "Tech & Electronics",
+        "filters":"Ring,Security Camera,Spotlight,Two-Way Audio",
+        "productid":"#00061"
+    },
+    {
+        "image":"thumbnails/Simplehuman Sensor Trash Can.jpeg",
+        "title":"Simplehuman Sensor Trash Can",
+        "price":"$149",
+        "description":"Stainless steel trash can with motion sensor lid.",
+        "category":"Home & Kitchen",
+        "filters":"Simple Human,Trash Can,Motion Sensor,Stainless",
+        "productid":"#00062"
+    },
+    {
+        "image":"thumbnails/Ninja Foodi 9-in-1 Pressure Cooker and Air Fryer.jpeg",
+        "title":"Ninja Foodi 9-in-1 Pressure Cooker and Air Fryer",
+        "price":"$199",
+        "description":"Multi-functional kitchen appliance for pressure cooking, air frying, and more.",
+        "category":"Home & Kitchen",
+        "filters":"Ninja,Pressure Cooker,Air Fryer,Kitchen Appliance",
+        "productid":"#00063"
+    },
+    {
+        "image":"thumbnails/Brentwood Originals Microfiber Sheet Set.jpeg",
+        "title":"Brentwood Originals Microfiber Sheet Set",
+        "price":"$39",
+        "description":"Soft and breathable microfiber sheets for a comfortable night's sleep.",
+        "category":"Home & Kitchen",
+        "filters":"Brentwood,Microfiber Sheets,Bed Sheets,Comfortable Sleep",
+        "productid":"#00064"
+    },
+    {
+        "image":"thumbnails/Presto Salad Shooter Electric Slicer Shredder.jpeg",
+        "title":"Presto Salad Shooter Electric Slicer Shredder",
+        "price":"$49",
+        "description":"Electric slicer and shredder for quick and easy food prep.",
+        "category":"Home & Kitchen",
+        "filters":"Presto,Salad Shooter,Slicer,Shredder,Food Prep",
+        "productid":"#00065"
+    },
+    {
+        "image":"thumbnails/Hoover WindTunnel 3 High Performance Pet Upright Vacuum.jpeg",
+        "title":"Hoover WindTunnel 3 High Performance Pet Upright Vacuum",
+        "price":"$199",
+        "description":"Powerful upright vacuum designed for homes with pets.",
+        "category":"Home & Kitchen",
+        "filters":"Hoover,Vacuum,Pet Hair,High Performance",
+        "productid":"#00066"
+    },
+    {
+        "image":"thumbnails/Presto Electric Pressure Cooker.jpeg",
+        "title":"Presto Electric Pressure Cooker",
+        "price":"$79",
+        "description":"6-quart electric pressure cooker for fast and easy meals.",
+        "category":"Home & Kitchen",
+        "filters":"Presto,Pressure Cooker,Electric,Kitchen Appliance",
+        "productid":"#00067"
+    },
+    {
+        "image":"thumbnails/BLACK+DECKER Crisp 'N Bake Air Fry Toaster Oven.jpeg",
+        "title":"BLACK+DECKER Crisp 'N Bake Air Fry Toaster Oven",
+        "price":"$99",
+        "description":"Toaster oven with air frying capabilities for healthier cooking.",
+        "category":"Home & Kitchen",
+        "filters":"Black+Decker,Toaster Oven,Air Fryer,Kitchen Appliance",
+        "productid":"#00068"
+    },
+    {
+        "image":"thumbnails/Oster Pro 1200 Blender.jpeg",
+        "title":"Oster Pro 1200 Blender",
+        "price":"$69",
+        "description":"Powerful blender with multiple speed settings and pre-programmed functions.",
+        "category":"Home & Kitchen",
+        "filters":"Oster,Blender,Kitchen Appliance,Speed Settings",
+        "productid":"#00069"
+    },
+    {
+        "image": "thumbnails/Levi's 501 Original Fit Jeans.jpeg",
+        "title": "Levi's 501 Original Fit Jeans",
+        "price": "$59",
+        "description": "Classic straight-leg Quality jeans with a timeless fit for both Men and Women.",  
+        "category": "Fashion & Accessories",
+        "filters": "Levi's,Jeans,Clothing,Fashion,Straight Leg",
+        "productid":"#00070"
+    },    {
+        "image": "thumbnails/Nike Air Max 270 Sneakers.jpeg",
+        "title": "Nike Air Max 270 Sneakers",
+        "price": "$150",
+        "description": "Comfortable and stylish sneakers with a large Air Max unit for cushioning.",
+        "category": "Fashion & Accessories",
+        "filters": "Nike,Sneakers,Footwear,Air Max,Cushioning",
+        "productid":"#00071"
+    },
+    {
+        "image": "thumbnails/Adidas Originals Trefoil Hoodie.webp",
+        "title": "Adidas Originals Trefoil Hoodie",
+        "price": "$70",
+        "description": "Cozy hoodie featuring the iconic Adidas Trefoil logo.",
+        "category": "Fashion & Accessories",
+        "filters": "Adidas,Hoodie,Clothing,Fashion,Trefoil Logo",
+        "productid":"#00072"
+    },
+    {
+        "image": "thumbnails/Ray-Ban Wayfarer Sunglasses.jpeg",
+        "title": "Ray-Ban Wayfarer Sunglasses",
+        "price": "$150",
+        "description": "Classic sunglasses with a timeless design and UV protection.",
+        "category": "Fashion & Accessories",
+        "filters": "Ray-Ban,Sunglasses,Accessories,UV Protection,Wayfarer",
+        "productid":"#00073"
+    },
+    {
+        "image": "thumbnails/Timberland 6-Inch Premium Waterproof Boots.jpeg",
+        "title": "Timberland 6-Inch Premium Waterproof Boots",
+        "price": "$200",
+        "description": "Durable and stylish waterproof boots for all-weather wear.",
+        "category": "Fashion & Accessories",
+        "filters": "Timberland,Boots,Footwear,Waterproof,Durable",
+        "productid":"#00074"
+    },
+    {
+        "image": "thumbnails/Calvin Klein Modern Cotton Bralette.jpeg",
+        "title": "Calvin Klein Modern Cotton Bralette",
+        "price": "$30",
+        "description": "Comfortable and stylish bralette made from soft cotton fabric.",
+        "category": "Fashion & Accessories",
+        "filters": "Calvin Klein,Bralette,Clothing,Fashion,Cotton",
+        "productid":"#00075"
+    },
+    {
+        "image": "thumbnails/Fossil Gen 6 Smartwatch.jpeg",
+        "title": "Fossil Gen 6 Smartwatch",
+        "price": "$299",
+        "description": "Stylish smartwatch with fitness tracking and customizable watch faces.",
+        "category": "Fashion & Accessories",
+        "filters": "Fossil,Smartwatch,Accessories,Fitness Tracking,Customizable",
+        "productid":"#00076"
+    },
+    {
+        "image": "thumbnails/UGG Classic Short II Boots.jpeg",
+        "title": "UGG Classic Short II Boots",
+        "price": "$140",
+        "description": "Cozy and stylish boots made from soft sheepskin material.",
+        "category": "Fashion & Accessories",
+        "filters": "UGG,Boots,Footwear,Sheepskin,Cozy",
+        "productid":"#00077"
+    }, 
+    {
+        "image": "thumbnails/The North Face Borealis Backpack.jpeg",
+        "title": "The North Face Borealis Backpack",
+        "price": "$99",
+        "description": "Durable and spacious backpack with multiple compartments for organization.",
+        "category": "Fashion & Accessories",
+        "filters": "The North Face,Backpack,Accessories,Durable,Spacious",
+        "productid":"#00078"
+    },
+    {
+        "image": "thumbnails/Gucci GG Marmont Mini Bag.jpeg",
+        "title": "Gucci GG Marmont Mini Bag",
+        "price": "$1200",
+        "description": "Luxurious mini bag featuring the iconic GG logo and chevron quilting.",
+        "category": "Fashion & Accessories",
+        "filters": "Gucci,Mini Bag,Accessories,Luxury,GG Logo",
+        "productid":"#00079"
+    },
+    {
+        "image": "thumbnails/Patagonia Better Sweater Fleece Jacket.jpeg",
+        "title": "Patagonia Better Sweater Fleece Jacket",
+        "price": "$139",
+        "description": "Warm and comfortable fleece jacket made from recycled materials.",
+        "category": "Fashion & Accessories",
+        "filters": "Patagonia,Fleece Jacket,Clothing,Fashion,Recycled Materials",
+        "productid":"#00080"
+    },
+    {
+        "image": "thumbnails/Movado Museum Classic Watch.jpeg",
+        "title": "Movado Museum Classic Watch",
+        "price": "$495",
+        "description": "Elegant watch with a minimalist design and iconic dot at 12 o'clock.",
+        "category": "Fashion & Accessories",
+        "filters": "Movado,Watch,Accessories,Minimalist Design,Classic",
+        "productid":"#00081"
+    },
+    {
+        "image": "thumbnails/Converse Chuck Taylor All Star Low Top Sneakers.jpeg",
+        "title": "Converse Chuck Taylor All Star Low Top Sneakers",
+        "price": "$55",
+        "description": "Classic low-top sneakers with a timeless design and durable canvas upper.",
+        "category": "Fashion & Accessories",
+        "filters": "Converse,Sneakers,Footwear,Canvas,Classic",
+        "productid":"#00082"
+    },
+    {
+        "image": "thumbnails/Birkenstock Arizona Soft Footbed Sandals.jpeg",
+        "title": "Birkenstock Arizona Soft Footbed Sandals",
+        "price": "$100",
+        "description": "Comfortable and supportive sandals with a contoured footbed and adjustable straps.",
+        "category": "Fashion & Accessories",
+        "filters": "Birkenstock,Sandals,Footwear,Comfortable,Supportive",
+        "productid":"#00083"
+    },
+    {
+        "image": "thumbnails/Tory Burch Perry Triple-Compartment Tote.jpeg",
+        "title": "Tory Burch Perry Triple-Compartment Tote",
+        "price": "$398",
+        "description": "Stylish tote bag with three compartments for organized storage.",
+        "category": "Fashion & Accessories",
+        "filters": "Tory Burch,Tote Bag,Accessories,Stylish,Organized Storage",
+        "productid":"#00084"
+    },
+    {
+        "image": "thumbnails/New Balance 990v5 Sneakers.jpeg",
+        "title": "New Balance 990v5 Sneakers",
+        "price": "$175",
+        "description": "Classic sneakers with premium materials and superior cushioning for all-day comfort.",
+        "category": "Fashion & Accessories",
+        "filters": "New Balance,Sneakers,Footwear,Comfort,Cushioning",
+        "productid":"#00085"
+    },
+    {
+        "image": "thumbnails/Samsung Galaxy Watch 5.jpeg",
+        "title": "Samsung Galaxy Watch 5",
+        "price": "$279",
+        "description": "Feature-packed smartwatch with health tracking and customizable watch faces.",
+        "category": "Tech & Electronics",
+        "filters": "Samsung,Smartwatch,Health Tracking,Customizable,Watch Faces",
+        "productid":"#00086"
+    },
+    {
+        "image":"thumbnails/Sony WH-1000XM5 Wireless Noise-Canceling Headphones.jpeg",
+        "title":"Sony WH-1000XM5 Wireless Noise-Canceling Headphones",
+        "price":"$349",
+        "description":"Premium wireless headphones with industry-leading noise cancellation and superior sound quality.",
+        "category":"Tech & Electronics",
+        "filters":"Sony,Wireless Headphones,Noise Cancellation,Sound Quality",
+        "productid":"#00087"
+    },
+    {
+        "image":"thumbnails/Apple MacBook Air (M2, 2022).jpeg",
+        "title":"Apple MacBook Air (M2, 2022)",
+        "price":"$1199",
+        "description":"Lightweight laptop with M2 chip for enhanced performance and battery life.",
+        "category":"Tech & Electronics",
+        "filters":"Apple,Laptop,M2 Chip,Lightweight,Battery Life",
+        "productid":"#00088"
+    },
+    {
+        "image":"thumbnails/Samsung Galaxy S23 Ultra.jpeg",
+        "title":"Samsung Galaxy S23 Ultra",
+        "price":"$1199",
+        "description":"Flagship smartphone with advanced camera system and powerful performance.",
+        "category":"Tech & Electronics",
+        "filters":"Samsung,Smartphone,Camera System,Performance",
+        "productid":"#00089"
+    },
+    {
+        "image":"thumbnails/Dell XPS 13 Laptop.jpeg",
+        "title":"Dell XPS 13 Laptop",
+        "price":"$999",
+        "description":"Premium ultrabook with a stunning display and powerful performance.",
+        "category":"Tech & Electronics",
+        "filters":"Dell,Laptop,Ultrabook,Display,Performance",
+        "productid":"#00090"
+    },
+    {
+    "image": "thumbnails/Plastic Water Bottle.jpeg",
+    "title": "Plastic Water Bottle",
+    "price": "$3",
+    "description": "Classic water bottle to keep your water, tea and your other drinkables .",
+    "category": "Home & Kitchen",
+    "filters": "Water Bottle,Plastic,Reusable,Hydration",
+    "productid": "#00091"
+  },
+  {
+    "image": "thumbnails/Cotton T-Shirt.jpeg",
+    "title": "Cotton T-Shirt",
+    "price": "$8",
+    "description": "Basic crew neck Unisex t-shirt made from soft cotton that makes you comfortable and Elegant.",
+    "category": "Fashion & Accessories",
+    "filters": "T-Shirt,Cotton,Crew Neck,Basic",
+    "productid": "#00092"
+  },
+  {
+    "image": "thumbnails/USB Wall Charger.jpeg",
+    "title": "USB Wall Charger",
+    "price": "$6",
+    "description": "Compact wall charger with dual USB ports, enjoy fast charging speed, Get your devices charged in minutes.",
+    "category": "Tech & Electronics",
+    "filters": "USB,Charger,Wall Adapter,Dual Port",
+    "productid": "#00093"
+  },
+  {
+    "image": "thumbnails/Ceramic Coffee Mug.jpeg",
+    "title": "Ceramic Coffee Mug",
+    "price": "$4",
+    "description": "Simple ceramic mug for hot beverages.",
+    "category": "Home & Kitchen",
+    "filters": "Coffee Mug,Ceramic,Hot Drinks,Kitchen",
+    "productid": "#00094"
+  },
+  {
+    "image": "thumbnails/Canvas Tote Bag.jpeg",
+    "title": "Canvas Tote Bag",
+    "price": "$10",
+    "description": "Durable tote bag for groceries or daily use.",
+    "category": "Fashion & Accessories",
+    "filters": "Tote Bag,Canvas,Grocery,Reusable",
+    "productid": "#00095"
+  },
+  {
+    "image": "thumbnails/Xiaomi Basic Wired Earphones.png",
+    "title": "Xiaomi Basic Wired Earphones",
+    "price": "$5",
+    "description": "Affordable Xiaomi earphones with clear sound, good microphone and a quality sound bass.",
+    "category": "Tech & Electronics",
+    "filters": "Earphones,Wired,Mic,Audio,Basic,Xiaomi",
+    "productid": "#00096"
+  },
+  {
+    "image": "thumbnails/Kitchen Sponge Pack.jpeg",
+    "title": "Scrubit Kitchen Sponge Pack",
+    "price": "$3",
+    "description": "Pack of 48 multi-purpose kitchen sponges for cleaning the dishes and other items.",
+    "category": "Home & Kitchen",
+    "filters": "Sponge,Kitchen,Cleaning,Multi-purpose",
+    "productid": "#00097"
+  },
+  {
+    "image": "thumbnails/Customized Flip Flops.jpeg",
+    "title": "Customized Flip Flops",
+    "price": "$7",
+    "description": "Lightweight rubber flip flops for casual wear.",
+    "category": "Fashion & Accessories",
+    "filters": "Flip Flops,Rubber,Casual,Summer",
+    "productid": "#00098"
+  },
+  {
+    "image": "thumbnails/BlackDecker Extension Cord.jpeg",
+    "title": "Extension Cord",
+    "price": "$9",
+    "description": "6-foot powerful extension cord with 4 outlets.",
+    "category": "Tech & Electronics",
+    "filters": "BlackDecker,Extension Cord,Power,Outlets,Electric",
+    "productid": "#00099"
+  },
+  {
+    "image": "thumbnails/Dish Drying Rack.avif",
+    "title": "Numhew Dish Drying Rack",
+    "price": "$12",
+    "description": "Expandable Kitchen rack for drying dishes and utensils.",
+    "category": "Home & Kitchen",
+    "filters": "Dish Rack,Drying,Kitchen,Utensils,Numhew",
+    "productid": "#00100"
+  }
+
+]
