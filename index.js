@@ -38,24 +38,46 @@ let recommended = [];
 
 //document.addEventListener("DOMContentLoaded", () => {
   const mainSearch = document.getElementById("main-search");
+
+  // helper to score how well a product matches the query (higher = better)
+  function isMatch(item, query) {
+    if (!query) return 0;
+    const title = (item.title || '').toLowerCase();
+    const description = (item.description || '').toLowerCase();
+    const category = (item.category || '').toLowerCase();
+
+    if (title.includes(query)) return 2;        // best match
+    if (description.includes(query)) return 1;  // secondary match
+    if (category.includes(query)) return 1;     // also secondary
+    return 0;
+  }
+
   mainSearch.addEventListener("input", () => {
     const query = mainSearch.value.toLowerCase();
     if (query == ''){
       renderProducts([],'search-grid');
-      renderProducts(recommended.splice(0,12), 'featured-products-grid');
+      renderProducts(recommended, 'featured-products-grid');
     }
     else{
-      const filtered = productData.filter(product =>
-        product.title.toLowerCase().includes(query) ||
-        product.category.toLowerCase().includes(query) ||
-        product.description.toLowerCase().includes(query)
-      );
+      const filtered = [...productData].sort((a, b) => {
+        return isMatch(b, query) - isMatch(a, query)
+      });
+
+      const searchResults = filtered.slice(0, 12); // Top matches
+      recommended = searchResults;
       
-      renderProducts(filtered.splice(0,12), 'search-grid');
-      recommended = filtered;
-      renderProducts(recommended.splice(0,12), 'featured-products-grid');
+      renderProducts(searchResults.slice(0,12), 'search-grid');
+      renderProducts(recommended, "featured-products-grid");
       
     };
+    // function isMatch(product,query){
+    //   return(
+    //     product.title.toLowerCase().includes(query) ||
+    //     product.category.toLowerCase().includes(query) ||
+    //     product.description.toLowerCase().includes(query)
+    //   ) ? 1:0;
+    // }
+    renderProducts(recommended, "featured-products-grid");
 
   });
   
@@ -104,10 +126,10 @@ fetch('products.json')
     const randomTechandElectronics = getRandomSubset(TechandElectronics, 12) || []; // Show 18 random products
     const randomHomeandKitchen = getRandomSubset(HomeandKitchen, 12) || [];
     const randomFashionandAccessories = getRandomSubset(FashionandAccessories, 12) || [];
-    const randomproductData = getRandomSubset(productData, 12) || [];
+    //const randomproductData = getRandomSubset(productData, 12) || [];
 
     // product rendering
-    renderProducts(randomproductData,'featured-products-grid' );
+    //renderProducts(randomproductData,'featured-products-grid' );
     renderProducts(randomTechandElectronics,'tech-&-electronics' );
     renderProducts(randomHomeandKitchen, "homeandkitchen");
     renderProducts(randomFashionandAccessories, "fashion-&-accessories");
